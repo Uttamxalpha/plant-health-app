@@ -1,0 +1,19 @@
+# Plant Health Checking System — Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Dataset download ──────────────────────────────────
+kagglehub>=0.2.0
+
+# ── Core ML ───────────────────────────────────────────
+tensorflow>=2.12.0
+numpy>=1.23.0
+
+# ── Image processing ──────────────────────────────────
+Pillow>=9.0.0
+opencv-python-headless>=4.7.0   # headless for server deploy
+
+# ── Web app ───────────────────────────────────────────
+streamlit>=1.28.0
+
+# ── Visualization ─────────────────────────────────────
+matplotlib>=3.6.0
