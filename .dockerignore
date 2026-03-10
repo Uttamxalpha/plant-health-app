@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.git/
+.DS_Store
+.env
+node_modules/
+frontend/dist/
+frontend/node_modules/
+*.zip

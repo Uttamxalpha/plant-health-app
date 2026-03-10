@@ -1,0 +1,8 @@
+{
+  "model": "MobileNetV3Small UltraLite (M2 Edition)",
+  "img_size": 128,
+  "num_classes": 38,
+  "epochs_run": 20,
+  "best_val_acc": 0.9625912308692932,
+  "best_top3": 0.9957230687141418
+}

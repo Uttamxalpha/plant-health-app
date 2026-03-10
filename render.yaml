@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: plant-health-app
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/info
+    envVars:
+      - key: TF_CPP_MIN_LOG_LEVEL
+        value: "2"
+      - key: MALLOC_ARENA_MAX
+        value: "2"

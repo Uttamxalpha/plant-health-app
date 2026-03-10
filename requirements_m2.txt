@@ -1,0 +1,19 @@
+# 🌿 Plant Health CNN — MacBook Air M2 Requirements
+# Install with: pip install -r requirements_m2.txt
+
+# ── Apple Silicon TensorFlow (M2 Metal GPU) ───────────────
+tensorflow-macos>=2.12.0
+tensorflow-metal>=0.8.0       # enables M2 GPU acceleration
+
+# ── Dataset ───────────────────────────────────────────────
+kagglehub>=0.2.0
+
+# ── Image processing ──────────────────────────────────────
+Pillow>=9.0.0
+numpy>=1.23.0
+
+# ── Web app ───────────────────────────────────────────────
+streamlit>=1.28.0
+
+# ── Visualization ─────────────────────────────────────────
+matplotlib>=3.6.0

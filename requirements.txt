@@ -1,6 +1,9 @@
-streamlit
-tensorflow==2.13.0
-numpy
-pillow
-opencv-python-headless
-scikit-learn
+# 🌿 Plant Health App — Production Requirements (Linux)
+# For local macOS M2 development, use requirements_m2.txt instead.
+
+tensorflow-cpu>=2.12.0
+flask>=3.0.0
+flask-cors>=4.0.0
+gunicorn>=21.2.0
+Pillow>=9.0.0
+numpy>=1.23.0
